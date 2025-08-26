@@ -174,7 +174,7 @@ const Post = () => {
       const message = isEditMode 
         ? '글이 성공적으로 수정되었습니다!'
         : isInfoPost && formData.category !== '정보게시판'
-          ? `글이 ${formData.category}과 정보게시판에 동시 게시되었습니다!`
+          ? `글이 ${formData.category}, 정보게시판에 동시 게시되었습니다!`
           : '글이 성공적으로 작성되었습니다!';
       
       alert(message);
