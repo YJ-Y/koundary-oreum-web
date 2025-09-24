@@ -3,7 +3,7 @@
 
     {
       "source": "/api/(.*)",
-      "destination": "https://3.26.1.127:8080/$1"
+      "destination": "http://3.26.1.127:8080/$1"
     
     },
     
